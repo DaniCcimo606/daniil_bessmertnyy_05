@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Auto</title>
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <div class="header__item-logo">
+                    <div class="header__logo-wrap">
+                        <a href="index.html">
+                            <img src="img/auto-logo.png" alt="logo" class="header__img--logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="header__item--text">
+                    <span class="text__item--mod">auto</span>
+                </div>
+                <div class="header__item">
+                    <div class="header__menu">
+                        <a href="page/authorization.html" class="header__menu--link">Авторизация</a>
+                        <a href="page/registration.html" class="header__menu--link">Регистрация</a>
+                    </div>
+                    <div class="header__social">
+                        <ul class="header__social--list">
+                            <li class="header__social--item telegram">
+                                <a href="#" class="header__sodial--link">
+                                    <img src="img/telegram_2019_Logo.svg.png" alt="telegram" class="header__social--img">
+                                </a>
+                            </li>
+                            <li class="header__social--item viber">
+                                <a href="#" class="header__sodial--link">
+                                    <img src="img/viber.png" alt="viber" class="header__social--img">
+                                </a>
+                            </li>
+                            <li class="header__social--item instagram">
+                                <a href="#" class="header__sodial--link">
+                                    <img src="img/instagram-Logo-PNG-Transparent.png" alt="instagram" class="header__social--img">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <div class="main__wrap">
+                    <div class="main__filter">
+                        <form method="POST" action="https://fom.in.ua/echo" class="main__form--filter">
+                            <div class="main__field--filter--wrap">
+                                <select name="body_type" id="" class="main__field--filter">
+                                    <option value="" class="main__field--item">
+                                        Кузов
+                                    </option>
+                                    <option value="sedan" class="main__field--item">
+                                        Седан
+                                    </option>
+                                    <option value="limousine" class="main__field--item">
+                                        Лимузин
+                                    </option>
+                                    <option value="station_wagon" class="main__field--item">
+                                        Универсал
+                                    </option>
+                                </select>
+                            </div>
+                                <div class="main__field--filter--wrap">
+                                    <select name="car_brand" id="" class="main__field--filter">
+                                    <option value="" class="main__field--item">
+                                        Брэнд
+                                    </option>
+                                    <option value="ford" class="main__field--item">
+                                        Ford
+                                    </option>
+                                    <option value="honda" class="main__field--item">
+                                        Honda
+                                    </option>
+                                    <option value="bmw" class="main__field--item">
+                                        BMW
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="main__field--filter--wrap">
+                                <select name="producing_country" id="" class="main__field--filter">
+                                    <option value="" class="main__field--item">
+                                        Страна производитель
+                                    </option>
+                                    <option value="USA" class="main__field--item">
+                                        США
+                                    </option>
+                                    <option value="japan" class="main__field--item">
+                                        Япония
+                                    </option>
+                                    <option value="germany" class="main__field--item">
+                                        Германия
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="main__field--filter--wrap">
+                                <select name="price" id="" class="main__field--filter">
+                                    <option value="" class="main__field--item">
+                                        Цена
+                                    </option>
+                                    <option value="100-1000" class="main__field--item">
+                                        От 100$ до 1000$
+                                    </option>
+                                    <option value="1000-10000" class="main__field--item">
+                                        От 1000$ до 10000$
+                                    </option>
+                                    <option value="10000-100000" class="main__field--item">
+                                        От 10000$ до 100000$
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="main__field--filter--wrap">
+                                <select name="year" id="" class="main__field--filter">
+                                    <option value="" class="main__field--item">
+                                        Год
+                                    </option>
+                                    <option value="1990-2000" class="main__field--item">
+                                        От 1990 до 2000
+                                    </option>
+                                    <option value="2000-2010" class="main__field--item">
+                                        От 2000 до 2010
+                                    </option>
+                                    <option value="2010-2020" class="main__field--item">
+                                        От 2010 до 2020
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="main__field--filter--wrap">
+                                <select name="status" id="" class="main__field--filter">
+                                    <option value="" class="main__field--item">
+                                        Состояние
+                                    </option>
+                                    <option value="new" class="main__field--item">
+                                        Новое
+                                    </option>
+                                    <option value="used" class="main__field--item">
+                                        Б/У
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="main__field--filter--wrap">
+                                <select name="fuel" id="" class="main__field--filter">
+                                    <option value="" class="main__field--item">
+                                        Топливо
+                                    </option>
+                                    <option value="petrol" class="main__field--item">
+                                        Бензин
+                                    </option>
+                                    <option value="diesel" class="main__field--item">
+                                        Дизельное топливо
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="main__field--filter--wrap">
+                                <select name="gearbox" id="" class="main__field--filter">
+                                    <option value="" class="main__field--item">
+                                        Коробка передач
+                                    </option>
+                                    <option value="manual" class="main__field--item">
+                                        Механическая коробка передач
+                                    </option>
+                                    <option value="automatic" class="main__field--item">
+                                        Автоматическая коробка передач
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="main__field--filter--wrap--mod">
+                                <select name="color" id="" class="main__field--filter main__field--filter--mod">
+                                    <option value="" class="main__field--item">
+                                        Цвет
+                                    </option>
+                                    <option value="blue" class="main__field--item">
+                                        Синий
+                                    </option>
+                                    <option value="green" class="main__field--item">
+                                        Зелёный
+                                    </option>
+                                    <option value="red" class="main__field--item">
+                                        Красный
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="main__field--filter--wrap--mod">
+                                <select name="comfort" id="" class="main__field--filter main__field--filter--mod">
+                                    <option value="" class="main__field--item">
+                                        Комфорт
+                                    </option>
+                                    <option value="just_value_num_1" class="main__field--item">
+                                        Само присутствие машины -
+                                    </option>
+                                    <option value="just_value_num_2" class="main__field--item">
+                                        - Комфорт для мужчины
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="main__wrap--submit">
+                                <button type="submit" formtarget="_blank" class="main__submit main__submit--search">Поиск</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="main__showcase">
+                        <div class="main__showcase--item--wrap">
+                            <div class="main__showcase--item">
+                                <img src="img/auto1.jpg" alt="brown car" class="main__showcase--item--img">
+                            </div>
+                        </div>
+                        <div class="main__showcase--item--wrap">
+                            <div class="main__showcase--item">
+                                <img src="img/auto2.jpg" alt="red car" class="main__showcase--item--img">
+                            </div>
+                        </div>
+                        <div class="main__showcase--item--wrap">
+                            <div class="main__showcase--item">
+                                <img src="img/auto3.jpg" alt="yellow car" class="main__showcase--item--img">
+                            </div>
+                        </div>
+                        <div class="main__showcase--item--wrap">
+                            <div class="main__showcase--item">
+                                <img src="img/auto4.jpg" alt="black car" class="main__showcase--item--img">
+                            </div>
+                        </div>
+                        <div class="main__showcase--item--wrap">
+                            <div class="main__showcase--item">
+                                <img src="img/auto5.jpg" alt="silver car" class="main__showcase--item--img">
+                            </div>
+                        </div>
+                        <div class="main__showcase--item--wrap">
+                            <div class="main__showcase--item">
+                                <img src="img/auto6.webp" alt="white car" class="main__showcase--item--img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="footer__item">
+                    <div class="footer__social">
+                        <ul class="footer__social--list">
+                            <li class="footer__social--item telegram">
+                                <a href="#" class="footer__sodial--link">
+                                    <img src="img/telegram_2019_Logo.svg.png" alt="telegram" class="footer__social--img">
+                                </a>
+                            </li>
+                            <li class="footer__social--item viber">
+                                <a href="#" class="footer__sodial--link">
+                                    <img src="img/viber.png" alt="viber" class="footer__social--img">
+                                </a>
+                            </li>
+                            <li class="footer__social--item instagram">
+                                <a href="#" class="footer__sodial--link">
+                                    <img src="img/instagram-Logo-PNG-Transparent.png" alt="instagram" class="footer__social--img">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
