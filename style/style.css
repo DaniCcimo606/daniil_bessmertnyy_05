@@ -63,6 +63,8 @@
 /* 10 */
 .main__search--wrap,
 /* 10 */
+.main__search--function--wrap,
+/* 10 */
 .main__showcase--item--wrap,
 /* 10 */
 .footer,
@@ -89,6 +91,8 @@
 .header__item-logo,
 /* 10 */
 .main__showcase--item--wrap,
+/* 10 */
+.main__search--function--wrap,
 /* 10 */
 .footer__social--item {
     align-items: center;
@@ -139,7 +143,9 @@
 /* 10 */
 .header__social--list,
 /* 10 */
-.wrap__field {
+.wrap__field,
+/* 10 */
+.main__search--function--wrap {
     flex-direction: column;
 }
 
@@ -167,7 +173,9 @@
 /* 10 */
 .main__field--filter--wrap,
 /* 10 */
-.main__field--filter--wrap--mod {
+.main__field--filter--wrap--mod,
+/* 10 */
+.main__search--function--wrap {
     position: relative;
 }
 
@@ -187,6 +195,8 @@
 /* 10 */
 .main__showcase--item--wrap,
 /* 10 */
+.main__search--wrap,
+/* 10 */
 .footer {
     justify-content: center;
 }
@@ -204,6 +214,8 @@
 .main__checkbox,
 /* 10 */
 .main__text,
+/* 10 */
+.main__search--function--text,
 /* 11 */
 .main__field--filter--wrap::after,
 /* 11 */
@@ -380,7 +392,7 @@ select {
 
 /* 10 */
 .main__wrap--submit {
-    margin: 15px 0 0 0;
+    margin: 15px 0 15px 0;
 }
 
 /* 10 */
@@ -481,7 +493,24 @@ select {
 /* 10 */
 .main__submit--search {
     font-size: 1.5rem;
-    margin-bottom: 20px;
+}
+
+.main__search--function--wrap {
+    justify-content: space-around;
+    padding-left: 25px;
+}
+
+.main__search--function--text {
+    left: 47px;
+    white-space: nowrap;
+}
+
+.main__search--function--text--alt {
+    top: 14.5px;
+}
+
+.main__search--function--text--mod {
+    top: 54.5px;
 }
 
 /* 10 */
