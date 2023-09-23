@@ -522,11 +522,25 @@ select {
 /* 10 */
 .main__showcase--item--img {
     height: auto;
+    border-radius: 16px;
+}
+
+.main__showcase--description {
+    padding: 5px 0 0 2%;
+}
+.main__showcase--description--list {
+    padding: 10px 3% 10px 6%;
+    float: left;
+    border: 1px solid rgb(255, 100, 0);
     border-radius: 15px;
+}
+.main__showcase--description--item {
+    list-style-type: disc;
 }
 
 /* 10 */
 .footer {
+    margin-top: 20px;
     border-top: 3px solid rgb(255, 100, 0);
     border-radius: 80px;
 }
