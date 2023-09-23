@@ -497,11 +497,11 @@ select {
 
 .main__search--function--wrap {
     justify-content: space-around;
-    padding-left: 25px;
+    padding-left: 1%;
 }
 
 .main__search--function--text {
-    left: 47px;
+    left: 104%;
     white-space: nowrap;
 }
 
