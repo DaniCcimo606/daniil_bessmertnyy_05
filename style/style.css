@@ -522,6 +522,7 @@ select {
 /* 10 */
 .main__showcase--item--img {
     height: auto;
+    border-radius: 15px;
 }
 
 /* 10 */
