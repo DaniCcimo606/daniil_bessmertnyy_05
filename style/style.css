@@ -495,20 +495,24 @@ select {
     font-size: 1.5rem;
 }
 
+/* 10 */
 .main__search--function--wrap {
     justify-content: space-around;
     padding-left: 1%;
 }
 
+/* 10 */
 .main__search--function--text {
     left: 104%;
     white-space: nowrap;
 }
 
+/* 10 */
 .main__search--function--text--alt {
     top: 14.5px;
 }
 
+/* 10 */
 .main__search--function--text--mod {
     top: 54.5px;
 }
@@ -525,15 +529,20 @@ select {
     border-radius: 16px;
 }
 
+/* 10 */
 .main__showcase--description {
     padding: 5px 0 0 2%;
 }
+
+/* 10 */
 .main__showcase--description--list {
     padding: 10px 3% 10px 6%;
     float: left;
     border: 1px solid rgb(255, 100, 0);
     border-radius: 15px;
 }
+
+/* 10 */
 .main__showcase--description--item {
     list-style-type: disc;
 }
