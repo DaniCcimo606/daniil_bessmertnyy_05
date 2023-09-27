@@ -545,6 +545,7 @@ select {
 /* 10 */
 .main__showcase--description--item {
     list-style-type: disc;
+    padding: 3px;
 }
 
 /* 10 */
